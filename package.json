@@ -1,0 +1,16 @@
+{
+  "name": "occurrence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Mark Anthony Ignacio",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
