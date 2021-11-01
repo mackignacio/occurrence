@@ -12,12 +12,12 @@ describe("Get most common word", () => {
   });
 
   it("should count the word And 221 times", async () => {
-    const common = await commonWord("And");
-    expect(common).toBe(20);
+    const common = await commonWord("and");
+    expect(common).toBe(221);
   });
 
-  it("should count the word the 221 times", async () => {
+  it("should count the word the 312 times", async () => {
     const common = await commonWord("the");
-    expect(common).toBe(20);
+    expect(common).toBe(312);
   });
 });
