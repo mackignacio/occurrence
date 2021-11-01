@@ -1,4 +1,4 @@
-const commonWord = require("./common-word.js");
+const commonWord = require("./utils/common-word.js");
 
 describe("Get most common word", () => {
   it("should count the word God 59 times", async () => {
